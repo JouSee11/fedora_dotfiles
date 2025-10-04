@@ -15,3 +15,10 @@ bind 'set show-all-if-ambiguous off'
 #bind 'TAB:menu-complete'
 source ~/.local/share/blesh/ble.sh
 
+source ~/.local/share/blesh/ble.sh
+
+#show some graphics at the start (only in interactive shells)
+if [[ $- == *i* ]]; then
+    fastfetch
+fi
+

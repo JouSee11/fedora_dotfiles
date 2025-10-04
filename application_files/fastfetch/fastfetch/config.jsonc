@@ -1,0 +1,21 @@
+{
+  "logo": {
+    "source": "/home/jotalac/.config/fastfetch/custom_img.txt"
+  },
+  "modules": [
+    "title",
+    "separator",
+    "os",
+    "uptime",
+    "shell",
+    "de",
+    "cpu",
+    "gpu",
+    "memory",
+    "disk",
+    "weather",
+    "localip",
+    "break",
+    "colors"
+  ]
+}
