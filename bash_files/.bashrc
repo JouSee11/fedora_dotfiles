@@ -22,3 +22,13 @@ if [[ $- == *i* ]]; then
     fastfetch
 fi
 
+# Git shortcuts
+alias ga='git add .'
+gc() {
+    git commit -m "$*"
+}
+alias gp='git push'
+alias gpl='git pull'
+alias gst='git status'
+alias gco='git checkout'
+alias gb='git branch'
