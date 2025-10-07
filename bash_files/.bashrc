@@ -1,4 +1,4 @@
-PROMPT_COMMAND='PS1_CMD1=$(git branch --show-current 2>/dev/null)'; PS1='\n\[\e[38;5;117;2m\]\t\[\e[0m\] \[\e[38;5;70;1m\]\u\[\e[0m\] \[\e[38;5;252;1;4m\]\w\[\e[0m\] \[\e[38;5;141;1;3m\]${PS1_CMD1}\n\[\e[0;38;5;187m\]\$\[\e[0m\] '
+PROMPT_COMMAND='PS1_CMD1=$(git branch --show-current 2>/dev/null)'; PS1='\n\[\e[38;5;108m\]󰦾\[\e[0m\] \[\e[38;5;72;1m\]\u\[\e[0m\] \[\e[38;5;252;1;4m\]\w\[\e[0m\] \[\e[38;5;163m\]${PS1_CMD1}\n\[\e[38;5;187m\]\$\[\e[0m\] '
 
 if [ -f /etc/bash_completion ]; then
     . /etc/bash_completion

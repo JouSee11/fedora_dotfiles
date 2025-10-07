@@ -1,6 +1,10 @@
 {
   "logo": {
-    "source": "/home/jotalac/.config/fastfetch/custom_img.txt"
+    "source": "/home/jotalac/.config/fastfetch/custom_img.txt",
+    "padding": {
+        "top": 3,
+        "left": 0
+    }
   },
   "modules": [
     "title",
@@ -13,7 +17,6 @@
     "gpu",
     "memory",
     "disk",
-    "weather",
     "localip",
     "break",
     "colors"
